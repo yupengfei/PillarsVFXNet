@@ -1,0 +1,3 @@
+g++ r3d.cpp -I ../r3dOperation -I ./Include/ -c  -std=c++11
+
+ar -rcs libr3d.a r3d.o
